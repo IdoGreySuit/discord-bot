@@ -30,7 +30,7 @@ class Top {
           let combatLevel = BaseFunctions.calculateCombatLevel(player)
           embed.addField(`${i+1} - ${player.user.name}`,
           `**[${combatLevel}]** - ${BaseFunctions.formatNumber(Object.values(player).reduce((total, toAdd) => isNaN(toAdd) ? total : total + toAdd).toFixed(1))}`, true)
-        } else if (statFull.startsWith("course_")) {
+        } else if (statFull && statFull.startsWith("course_")) {
           embed.addField(`${i+1} - ${player.user.name}`,
           `${BaseFunctions.formatTime(player.result.toFixed(1))}`, true)
         } else {

@@ -39,12 +39,14 @@
     "lobby",
     "arcade",
     "apocalypse",
-    "battle-of-the-heroes"
+    "battle-of-the-heroes",
+    "zombies"
   ],
   "API_LOCATIONS": {
     "minescape" : "gameslabs-minescape",
     "apocalypse" : "gameslabs-apocalypse",
-    "heroes" : "gameslabs-battle-of-the-heroes"
+    "heroes" : "gameslabs-battle-of-the-heroes",
+    "zombies" : "gameslabs-zombies"
   },
   "STAT_NAMES": {
     "total zombie kills" : "totalZombieKills",
@@ -60,6 +62,10 @@
     "falador" : "course_falador",
     "ice caves" : "course_ice_caves",
     "icecaves" : "course_ice_caves",
-    "lumbridge" : "course_lumbridge"
+    "lumbridge" : "course_lumbridge",
+    "kino" : "kino",
+    "kino der toten" : "kino",
+    "nacht" : "nacht",
+    "nacht der untoten" : "nacht"
   }
 }
