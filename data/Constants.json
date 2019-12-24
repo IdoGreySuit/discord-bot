@@ -66,6 +66,12 @@
     "kino" : "kino",
     "kino der toten" : "kino",
     "nacht" : "nacht",
-    "nacht der untoten" : "nacht"
+    "nacht der untoten" : "nacht",
+    "kino kills" : "kinoMaxKills",
+    "nacht kills" : "nachtMaxKills",
+    "kino points" : "kinoMaxPoints",
+    "nacht points" : "nachtMaxPoints",
+    "kino revives" : "kinoMaxRevives",
+    "nacht revives" : "nachtMaxRevives"
   }
 }
