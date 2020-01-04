@@ -15,10 +15,14 @@ const CommandHandler = new CommandClass(bot, MinescapeAPI)
 // And we also want to set the presence of our bot
 const setPresence = require('./utils/setPresence')
 
+// And we also want  our bot to listen to events
+const setMessageHook = require('./utils/setMessageHook')
+
 // This tells us when the bot has booted up. Also should show that there are no runtime errors
 bot.on('ready', async () => {
   console.log(`Bot is being sent out to ${bot.users.size} users over ${bot.guilds.size} servers`)
   setPresence(bot, MinescapeAPI)
+  setMessageHook(bot, config)
   setInterval(() => {
     setPresence(bot, MinescapeAPI)
   }, 16e3)

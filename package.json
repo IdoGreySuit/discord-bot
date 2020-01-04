@@ -4,11 +4,12 @@
   "description": "Minescape bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.5.5",
     "discord.js": "^11.4.2",
     "mathjs": "^5.8.0",
     "request": "^2.88.0"
